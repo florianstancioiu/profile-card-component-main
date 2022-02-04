@@ -83,3 +83,14 @@ body {
     margin-top: 0;
     margin-bottom: 24px;
 }
+
+@media screen and (min-width: 351px) {
+    .card {
+        max-width: 350px;
+        margin: 170px auto;
+    }
+
+    body {
+        background-position: right 51vw bottom 38vh, left 49vw top 53vh;
+    }
+}
